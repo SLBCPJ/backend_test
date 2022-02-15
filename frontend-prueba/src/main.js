@@ -15,7 +15,11 @@ Vue.use(VueSweetalert2);
 import 'bootstrap/dist/css/bootstrap.css'
 Vue.use(VueAxios, axios)
 //configuracion de la API
-axios.defaults.baseURL = 'http://localhost:5000/api';
+//local
+// axios.defaults.baseURL = 'http://localhost:5000/api';
+//heroku
+axios.defaults.baseURL = 'https://prueba-test-stack-mevn-jimmy.herokuapp.com/api';
+
 Vue.config.productionTip = false
 
 
