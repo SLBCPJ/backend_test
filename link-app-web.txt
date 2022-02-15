@@ -1,0 +1,4 @@
+link deploy del frontend
+********************////*******************
+https://prueba-stack-mevn-yimy.netlify.app
+********************////*******************
